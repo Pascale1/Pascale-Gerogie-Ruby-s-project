@@ -176,5 +176,19 @@ function updateTail(){
     tailX[0] = snakeX; 
     tailY[0] = snakeY; 
 } 
- 
+
 run();
+
+var game = "play"; //This is the game variable   
+
+$("#Restart").click(function() { //Using the buttons        
+            console.log("Restart Works"); 
+            gamerestart();
+            ctx.fill
+    });    
+
+function gamerestart(){
+        game = gamerestart;
+        ctx.fillStyle = '#00008b';
+        ctx.fillRect(0,0, canvas.width, canvas.height);
+    }
