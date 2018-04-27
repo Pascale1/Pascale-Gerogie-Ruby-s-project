@@ -3,7 +3,7 @@
     margin:10; 
 } 
 body{ 
-    background-color:#000; 
+    background-color:lightblue; 
 } 
 td{ 
     width:20px; 
@@ -16,7 +16,7 @@ td{
     background-color:lightgreen; 
 } 
 .wall{ 
-    background-color:darkgreen; 
+    background-color:indigo; 
 } 
 .fruit{ 
     /*background-image: url("mouse.jpg");*/
